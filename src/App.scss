@@ -98,6 +98,28 @@
                 height: 50px;
                 padding: 8px;
                 justify-content: space-between;
+
+                .logo{
+                    font-weight: bolder;
+                }
+                .user{
+                    display: flex;
+                    gap: 10px;
+
+                    img{
+                        background-color: #ddddf7;
+                        width: 25px;
+                        height: 25px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                    button{
+                        background-color: #5d5b8d;
+                        color: #ddddf7;
+                        border: 0;
+                        cursor: pointer;
+                    }
+                }
             }
         }
         .chat{flex:2;}
