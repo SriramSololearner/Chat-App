@@ -1,0 +1,106 @@
+.formContainer{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .formWrapper{
+        background-color: #fff;
+        padding: 20px 60px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        border-radius: 10px;
+        align-items: center;
+
+        .logo{
+            color:#5d5b8d;
+            font-weight: bold;
+            font-size: 24px;
+        }
+
+        .title{
+            color: #5d5b8d;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap:10px;
+
+            input{
+                padding:10px;
+                border: 0;
+                border-bottom:2px solid #a7bcff;
+                width:250px;
+            &::placeholder{
+                color: rgb(190, 189, 189);
+            }
+            }
+
+            button{
+                background-color: #7b96ec;
+                color: white;
+                padding: 10px;
+                font-weight: bolder;
+                border: 0;
+                cursor: pointer;
+            }
+
+            label{
+                display: flex;
+                align-items: center;
+                gap:10px;
+                color:#8da4f1;
+                font-size: 12px;
+                cursor: pointer;
+
+                img{
+                    width: 38px;
+                }
+            }
+        }
+
+        p{
+            color: #5d5b8d;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+    }
+}
+
+.Home{
+    background-color: #a7bcff;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height:70%;
+        overflow: hidden;
+        display: flex;
+
+        .sidebar{
+            flex:1;
+            border-right:1px solid #3e3c61;
+            background-color: #3e3c61;
+            
+            .navbar{
+                display: flex;
+                align-items: center;
+                background-color: #2f2d52;
+                color: #ddddf7;
+                height: 50px;
+                padding: 8px;
+                justify-content: space-between;
+            }
+        }
+        .chat{flex:2;}
+    }
+
+}
